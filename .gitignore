@@ -1,0 +1,14 @@
+# Środowiska wirtualne
+venv/
+env/
+.env
+
+# Dane
+data/
+*.sqlite3
+chroma_db/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
