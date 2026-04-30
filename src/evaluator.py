@@ -11,7 +11,7 @@ class RAGEvaluator:
     oceniania jakości wygenerowanych odpowiedzi w systemie RAG.
     """
 
-    def __init__(self, model_name: str = "gemini-flash"):
+    def __init__(self, model_name: str = "gemini-2.5-flash"):
         """
         Inicjalizuje ewaluatora. Temperatura ustawiona na 0.0, ponieważ
         oczekujemy od 'sędziego' surowych, analitycznych i powtarzalnych ocen,

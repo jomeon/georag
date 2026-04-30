@@ -14,7 +14,7 @@ class RAGGenerator:
     z modelem językowym (LLM) w celu generowania odpowiedzi opartych na kontekście.
     """
 
-    def __init__(self, vector_store, model_name: str = "gemini-flash", temperature: float = 0.0):
+    def __init__(self, vector_store, model_name: str = "gemini-2.5-flash", temperature: float = 0.0):
         """
         Inicjalizuje generator RAG.
         
