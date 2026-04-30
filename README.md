@@ -19,7 +19,7 @@ Projekt został zrealizowany w paradygmacie obiektowym (OOP) przy użyciu język
 
 ### 3. Generator Odpowiedzi (LLM)
 *   **Moduł:** `src/generator.py`
-*   **Technologia:** Google Gemini .5 Flash (`langchain-google-genai`).
+*   **Technologia:** Google Gemini 2.5 Flash (`langchain-google-genai`).
 *   **Uzasadnienie:** Zastosowano model Gemini ze względu na jego dużą wydajność i ogromne okno kontekstowe. Temperaturę modelu ustawiono na `0.0` (pełen determinizm), co jest kluczowe w systemach eksperckich. Zastosowano rygorystyczny *System Prompt* zmuszający model do odpowiadania wyłącznie na podstawie dostarczonych dokumentów. Wyszukiwanie wektorowe opiera się na 4 najbardziej zbliżonych fragmentach (`k=4`), aby nie rozpraszać modelu nadmiarem szumu informacyjnego.
 
 ### 4. Testy i Ewaluacja (LLM-as-a-Judge)
